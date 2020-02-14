@@ -37,3 +37,4 @@ Unfortunately whilst Tableau Desktop allows you to have a live connection to the
 For future development of this solution (especially with regards to question 2), the following considerations are worth noting:
 - A historical log of the bike station availability can be collected in the MySQL database
 - This can then feed into a model providing predictions on bike availability on X day of the week (and by month, etc.), which in turn could generate a recommendation system for the user (or any individual) on which location is best for them to move house.
+- Finally, this solution can be scaled to different barrios of Barcelona by using BCN city shapefiles to identify the barrio in which each station resides in.
